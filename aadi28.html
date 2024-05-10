@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Tutorial</title>
+    <style>
+        .container {
+            height: 545px;
+            width: 100%;
+            border: 3px solid black;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .items {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 3px solid purple;
+            margin: 10px;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is Flexbox Tutorial</h2>
+    <div class="container">
+        <div class="items" id="items-1">First Box </div>
+        <div class="items" id="items-2">Second Box</div>
+        <div class="items" id="items-3">Third Box</div>
+        <div class="items" id="items-4">Forth Box</div>
+        <div class="items" id="items-5">Fifth Box</div>
+    </div>
+</body>
+
+</html>
