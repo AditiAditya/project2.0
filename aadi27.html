@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and z- index</title>
+</head>
+<style>
+    .box {
+        width: 150px;
+        height: 150px;
+        border: 3px solid black;
+        /* margin: 5px; */
+
+    }
+
+    #box1 {
+        /* visibility me meri jaga riserved hai koi bhi nhi batth sakta */
+
+        /* visibility: hidden; */
+        background-color: yellow;
+
+                position: relative;
+        top: 45px;
+    }
+
+    #box2 {
+        /* meri jaga pe koi bhi meri jaga pe aa ke beth sakta hai ''not reserved''' */
+
+        /* display: none; */
+        background-color: blue;
+
+         position: relative;
+        top: 34px;
+    }
+
+    #box3 {
+        /* visibility: hidden; */
+        background-color: red;
+
+
+    }
+
+    #box4 {
+        background-color: green;
+    }
+
+    #box5 {
+        background-color: brown;
+    }
+</style>
+
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5"></div>
+</body>
+
+</html>
